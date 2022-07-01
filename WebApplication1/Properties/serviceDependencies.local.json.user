@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-07-01T06:35:16.2640878Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-07-01T06:35:31.9429746Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "7901d477-b5eb-4a2e-9f51-26a94719691b"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Hostel"
+    }
+  }
+}

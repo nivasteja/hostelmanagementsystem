@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "hostelaks-cb87"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "hostelaks-cb87"
+  template:
+    metadata:
+      labels:
+        app: "hostelaks-cb87"
+    spec:
+      containers:
+        - name: "hostelaks-cb87"
+          image: "hostelacs.azurecr.io/hostelaks"
+          ports:
+          - containerPort: 80
